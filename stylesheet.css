@@ -1,0 +1,52 @@
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	max-width: 500px;
+}
+
+.center > * {
+	text-align: center;
+}
+
+.center > img {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+#link {
+	text-decoration: underline;
+	display: block;
+	color: black;
+	cursor: pointer;
+}
+
+#link:hover {
+	color: lightblue;
+}
+
+div.cards {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+div.card {
+	width: 200px;
+	padding: 20px;
+	border: 2px black solid;
+	margin-top: 50px;
+	display: inline-block;
+	background-color: beige;
+}
